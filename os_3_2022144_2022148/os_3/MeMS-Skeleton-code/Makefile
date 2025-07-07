@@ -1,9 +1,9 @@
-# this is makefile for MeMS
+# Makefile for MeMS
 
-all: clean example 
+all: clean main
 
-example: example.c mems.h
-	gcc -o example example.c
+main: main.c mems.h
+	gcc -o main main.c
 
 clean:
-	rm -rf example
+	rm -rf main

@@ -1,13 +1,11 @@
 // include other header files as needed
 #include"mems.h"
 
-
 int main(int argc, char const *argv[])
 {
     // initialise the MeMS system 
     mems_init();
     int* ptr[10];
-
 
     // char* t_ptr=(char*)mems_malloc(100);
     // char* temp_ptr=(char*)mems_get(t_ptr);
